@@ -29,5 +29,5 @@ import static java.lang.annotation.RetentionPolicy.CLASS;
 @Documented
 @Target(value = {FIELD, METHOD, PARAMETER, LOCAL_VARIABLE})
 @Retention(value = CLASS)
-public @interface NonNull {
+public @interface NotNull {
 }

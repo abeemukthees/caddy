@@ -18,7 +18,7 @@ package msa.carrier;
 
 
 import com.sun.istack.internal.Nullable;
-import msa.common.NonNull;
+import msa.common.NotNull;
 
 /**
  * A generic class that holds a value with its loading status.
@@ -27,10 +27,10 @@ import msa.common.NonNull;
  */
 public class ResourceCarrier<D> {
 
-    @NonNull
+    @NotNull
     public final Status status;
 
-    @NonNull
+    @NotNull
     public final int code;
 
     @Nullable
@@ -39,7 +39,7 @@ public class ResourceCarrier<D> {
     @Nullable
     public final D data;
 
-    private ResourceCarrier(@NonNull Status status, @Nullable int code, @Nullable D data, @Nullable String message) {
+    private ResourceCarrier(@NotNull Status status, @Nullable int code, @Nullable D data, @Nullable String message) {
         this.status = status;
         this.code = code;
         this.data = data;

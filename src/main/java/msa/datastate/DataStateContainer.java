@@ -18,7 +18,7 @@ package msa.datastate;
 
 
 import com.sun.istack.internal.Nullable;
-import msa.common.NonNull;
+import msa.common.NotNull;
 
 /**
  * A generic class that holds a value with its loading dataState.
@@ -27,7 +27,7 @@ import msa.common.NonNull;
  */
 public class DataStateContainer<D> {
 
-    @NonNull
+    @NotNull
     private DataState dataState;
 
     @Nullable

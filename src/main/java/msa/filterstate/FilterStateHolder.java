@@ -17,17 +17,17 @@
 package msa.filterstate;
 
 import com.sun.istack.internal.Nullable;
-import msa.common.NonNull;
+import msa.common.NotNull;
 
 public class FilterStateHolder<F> {
 
-    @NonNull
+    @NotNull
     private final FilterState filterState;
 
-    @NonNull
+    @NotNull
     private final F filter;
 
-    private FilterStateHolder(@NonNull FilterState filterState, @NonNull F filter) {
+    private FilterStateHolder(@NotNull FilterState filterState, @NotNull F filter) {
         this.filterState = filterState;
         this.filter = filter;
     }
